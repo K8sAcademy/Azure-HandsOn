@@ -1,0 +1,13 @@
+*******************************************
+Copy and Paste the Directory ID here
+
+
+*******************************************
+Copy and Paste the Application ID here
+
+
+******************************************
+Copy and Paste the Secret here
+
+
+

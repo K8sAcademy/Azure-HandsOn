@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  kuard:
+    image: k8sacademy/kuard:latest
+    ports:
+      - "80:8080"
+    volumes:
+       - ${WEBAPP_STORAGE_HOME}/site/wwwroot:/azurepersistentstorage

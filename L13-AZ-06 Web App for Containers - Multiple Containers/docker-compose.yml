@@ -1,0 +1,19 @@
+version: "3.5"
+services: 
+  hello1: 
+    depends_on: 
+      - reverseproxy
+    image: "nginxdemos/hello"
+    restart: always
+
+  hello2: 
+    depends_on: 
+      - reverseproxy
+    image: "nginxdemos/hello"
+    restart: always
+
+  reverseproxy: 
+    image: k8sacademy/reverseproxy
+    ports: 
+      - "80:80"
+    restart: always

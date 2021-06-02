@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: result
+  name: result
+  namespace: vote
+spec:
+  type: LoadBalancer
+  ports:
+  - name: "result-service"
+    port: 5001
+    targetPort: 80
+  selector:
+    app: result

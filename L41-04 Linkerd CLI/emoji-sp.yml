@@ -1,0 +1,16 @@
+apiVersion: linkerd.io/v1alpha2
+kind: ServiceProfile
+metadata:
+  creationTimestamp: null
+  name: emoji-svc.emojivoto.svc.cluster.local
+  namespace: emojivoto
+spec:
+  routes:
+  - condition:
+      method: POST
+      pathRegex: /emojivoto\.v1\.EmojiService/FindByShortcode
+    name: POST /emojivoto.v1.EmojiService/FindByShortcode
+  - condition:
+      method: POST
+      pathRegex: /emojivoto\.v1\.EmojiService/ListAll
+    name: POST /emojivoto.v1.EmojiService/ListAll

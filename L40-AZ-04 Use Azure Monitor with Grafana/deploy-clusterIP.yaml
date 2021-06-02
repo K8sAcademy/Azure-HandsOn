@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hpa-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hpa-pod
+  template:
+    metadata:
+      labels:
+        app: hpa-pod
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: hpa-pod
+        image: k8sacademy/kuard:latest
+        ports:
+        - containerPort: 8080
+          name: http
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "200m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hpa-svc
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app: hpa-pod    
