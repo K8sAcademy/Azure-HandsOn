@@ -1,10 +1,19 @@
-FROM microsoft/dotnet:2.0.0-sdk
+FROM mcr.microsoft.com/dotnet/runtime:3.1 AS base
+WORKDIR /app
 
-WORKDIR /code
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+WORKDIR /src
+COPY ["src/Worker/Worker.csproj", "Worker/"]
+RUN dotnet restore "Worker/Worker.csproj"
+COPY . .
+WORKDIR "src/Worker"
+RUN dotnet build "Worker.csproj" -c Release -o /app/build
 
-ADD src/Worker /code/src/Worker
+FROM build AS publish
+RUN dotnet publish "Worker.csproj" -c Release -o /app/publish
 
-RUN dotnet restore -v minimal src/Worker \
-    && dotnet publish -c Release -o "./" "src/Worker/" 
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 
-CMD dotnet src/Worker/Worker.dll
+ENTRYPOINT ["dotnet", "Worker.dll"]
