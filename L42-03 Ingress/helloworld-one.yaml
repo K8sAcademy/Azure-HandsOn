@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helloworld-one  
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helloworld-one
+  template:
+    metadata:
+      labels:
+        app: helloworld-one
+    spec:
+      containers:
+      - name: aks-helloworld-one
+        image: mcr.microsoft.com/azuredocs/aks-helloworld:v1
+        ports:
+        - containerPort: 80
+        env:
+        - name: TITLE
+          value: "Hello App 1"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: helloworld-one  
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: helloworld-one
