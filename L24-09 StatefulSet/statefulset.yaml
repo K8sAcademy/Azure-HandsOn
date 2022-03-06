@@ -11,7 +11,9 @@ spec:
   clusterIP: None
   selector:
     run: nginx-sts-demo
+
 ---
+
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -37,9 +39,9 @@ spec:
   - metadata:
       name: www
     spec:
-      storageClassName: azurefile
+      storageClassName: hostpath
       accessModes:
         - ReadWriteOnce
       resources:
         requests:
-          storage: 1Gi
+          storage: 10Mi

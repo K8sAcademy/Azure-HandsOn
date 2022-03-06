@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Work\\K8s Academy Online\\GitHub Hands-On\\Azure-HandsOn\\L09-05 Docker Compose - Sample App\\result\\dotnet\\Result\\Result.csproj",
+  "FilePath": "c:\\Work\\K8s Academy Online\\Self-Paced Courses\\GitHub Hands-On\\Azure-HandsOn\\L09-05 Docker Compose - Sample App\\result\\dotnet\\Result\\Result.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1818,7 +1818,7 @@
   "RootNamespace": "Result",
   "Documents": [
     {
-      "FilePath": "c:\\Work\\K8s Academy Online\\GitHub Hands-On\\Azure-HandsOn\\L09-05 Docker Compose - Sample App\\result\\dotnet\\Result\\Pages\\Index.cshtml",
+      "FilePath": "c:\\Work\\K8s Academy Online\\Self-Paced Courses\\GitHub Hands-On\\Azure-HandsOn\\L09-05 Docker Compose - Sample App\\result\\dotnet\\Result\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     }
