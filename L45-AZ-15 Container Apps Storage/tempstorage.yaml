@@ -1,0 +1,38 @@
+kind: containerapp
+location: eastus2
+name: lab15
+resourceGroup: ca-lab15
+type: Microsoft.App/containerApps
+properties:
+  managedEnvironmentId: /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/ca-lab15/providers/Microsoft.App/managedEnvironments/managedEnvironment-lab15
+  configuration:
+    activeRevisionsMode: Single
+    ingress:
+      external: true
+      allowInsecure: false
+      targetPort: 8080
+      transport: Auto
+  template:
+    containers:
+      - image: k8sacademy/kuard:latest
+        name: kuard
+        resources:
+          cpu: 0.5
+          memory: 1Gi
+        volumeMounts:
+        - mountPath: /myempty
+          volumeName: myempty          
+      - image: nginx:alpine
+        name: nginx
+        resources:
+          cpu: 0.5
+          memory: 1Gi
+        volumeMounts:
+        - mountPath: /myempty
+          volumeName: myempty
+    volumes:
+    - name: myempty
+      storageType: EmptyDir
+  scale:
+    minReplicas: 1
+    maxReplicas: 5
