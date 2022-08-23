@@ -4,7 +4,7 @@
 
 These are the Hands-On lab files for the the **Docker and Kubernetes on Azure** self-paced training course.
 
-https://kubernetesacademy.online
+https://kubernetesacademy.online/product/docker-containers-and-kubernetes-on-azure/
 
 ## About this course
 
@@ -137,16 +137,14 @@ https://guybarrette.com @GuyBarrette
 
 ## Also Available
 
-<img src="https://kubernetesacademy.online/wp-content/uploads/2021/08/BadgeFundamentalsEN.svg" width=200px style="padding:20px;"><img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeDigitalOceanEN.svg" width=200px style="padding:20px;">
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeLinodeEN.svg" width=200px style="padding:20px;"><img src="https://kubernetesacademy.online/wp-content/uploads/2022/04/BadgeGoogleCloudEN.svg" width=200px style="padding:20px;">
+<img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/BadgeAzure-EN-1.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeDigitalOceanEN.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeLinodeEN.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2022/04/BadgeGoogleCloudEN.svg" width=200px>
 
 ---
 
 ## Live Instructor-Led Classes
 
-<img src="https://kubernetesacademy.online/wp-content/uploads/2021/05/Event-Feature-1-1024x576.webp" width=400px>
+<img src="https://kubernetesacademy.online/wp-content/uploads/2021/05/Event-Feature-1-1024x576.webp" width=600px>
 
-I also offer live instructor-led public and private classes over Zoom/Teams.
+I also offer live instructor-led public and private classes over Zoom/Teams: https://kubernetesacademy.online/virtual-classes/
 
-https://kubernetesacademy.online/virtual-classes/
+Groups/Corporate private classes: https://kubernetesacademy.online/groups-corporate/
