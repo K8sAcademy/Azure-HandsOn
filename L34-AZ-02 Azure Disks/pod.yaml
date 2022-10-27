@@ -20,7 +20,12 @@ spec:
     volumeMounts:
       - mountPath: "/azuredisk/"
         name: myazuredisk
+      - mountPath: "/mnt/azurecsidisk"
+        name: mycsidisk
   volumes:
     - name: myazuredisk
       persistentVolumeClaim:
         claimName: azure-managed-disk
+    - name: mycsidisk
+      persistentVolumeClaim:
+        claimName: pv-azuredisk

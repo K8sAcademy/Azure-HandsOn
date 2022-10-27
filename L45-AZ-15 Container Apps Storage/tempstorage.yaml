@@ -1,10 +1,16 @@
+variables: 
+  - name: subID
+  - value: /subscriptions/67e19047-6e0d-4824-b7e4-c7adcc037631/resourceGroups/lab15
+
 kind: containerapp
-location: eastus2
+location: uksouth
 name: lab15
-resourceGroup: ca-lab15
+resourceGroup: lab15
 type: Microsoft.App/containerApps
 properties:
-  managedEnvironmentId: /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/ca-lab15/providers/Microsoft.App/managedEnvironments/managedEnvironment-lab15
+  # managedEnvironmentId: /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/ca-lab15/providers/Microsoft.App/managedEnvironments/managedEnvironment-lab15
+  # managedEnvironmentId: '$(subID) /providers/Microsoft.App/managedEnvironments/lab15'
+  managedEnvironmentId: "/subscriptions/67e19047-6e0d-4824-b7e4-c7adcc037631/resourceGroups/lab15/providers/Microsoft.App/managedEnvironments/lab15"
   configuration:
     activeRevisionsMode: Single
     ingress:
