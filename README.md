@@ -4,19 +4,12 @@
 
 These are the Hands-On lab files for the the **Docker and Kubernetes on Azure** self-paced training course.
 
-https://kubernetesacademy.online/product/docker-containers-and-kubernetes-on-azure/
-
-Changelog: https://kubernetesacademy.online/changelog/
-
-Backlog: https://github.com/users/guybarrette/projects/1
-
 ## About this course
 
 - Includes all the Fundamentals course modules
 - Duration: 15.5+ hours of video training.
 - 209 lectures.
 - 91 Hands-On labs with step-by-step instructions and source code.
-- Unlimited access for 365 days.
 - Level: Introduction to intermediate.
 - No prerequisites – Ideal for beginners. No coding experience is required.
 - Target audience: Developers, DevOps, SREs, and I.T. Pros.
@@ -97,34 +90,6 @@ Finally, you’ll learn about Infrastructure as Code with a complete set of lect
 
 ---
 
-## The Learning Experience
-
-### Learn the concepts
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2022/03/course1_dell-xps15-front2.webp" width=250px>
-
-Start learning the concepts by watching short lectures.
-
-### Learn to apply the concepts
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2022/03/course2_dell-xps15-front.webp" width=250px>
-
-The instructor shows you how to apply what you just learned in short hands-on labs.
-
-### Hands On
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2022/03/course3_dell-xps15-front.webp" width=250px>
-
-Each lab comes with a complete set of step by step instructions, source code, and YAML files.
-
-### Try and experiment
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2022/03/course4_dell-xps15-front.webp" width=250px>
-
-Open VS Code and simply copy/paste the commands in the built-in terminal.
-
----
-
 ## Meet your Instructor​
 
 <img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/GuyBarrette-Square-min.png" width=250px>
@@ -133,22 +98,4 @@ Guy Barrette is a developer/trainer with more then 25 years of experience. He wo
 
 <img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/ckad-min-150x150.png" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/11/KCNA-340px-150x150.webp" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2022/03/hashicorp-certified-terraform-associate-340px-150x150.webp" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/Google-Associate-Cloud-Engineer-min-150x150.png" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/AWS-CloudPractitioner-2020-min-150x150.png" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/MVP_Logo_Square-min-150x150.png" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/azure-fundamentals-min-150x150.png" width=100px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/01/azure-developer-associate-min-150x150.png" width=100px>
 
-https://kubernetesacademy.online @K8s_Online
-
-https://guybarrette.com @GuyBarrette
-
----
-
-## Also Available
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2021/08/BadgeFundamentalsEN.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeDigitalOceanEN.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2021/07/BadgeLinodeEN.svg" width=200px><img src="https://kubernetesacademy.online/wp-content/uploads/2022/04/BadgeGoogleCloudEN.svg" width=200px>
-
----
-
-## Live Instructor-Led Classes
-
-<img src="https://kubernetesacademy.online/wp-content/uploads/2021/05/Event-Feature-1-1024x576.webp" width=600px>
-
-I also offer live instructor-led public and private classes over Zoom/Teams: https://kubernetesacademy.online/virtual-classes/
-
-Groups/Corporate private classes: https://kubernetesacademy.online/groups-corporate/
+https://guybarrette.com @GuyBarrette @guybarrette@techhub.social
