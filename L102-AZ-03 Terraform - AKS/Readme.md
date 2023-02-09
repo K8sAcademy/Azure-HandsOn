@@ -1,7 +1,5 @@
 # L102-AZ-02
 
-![Hands-On Files](https://kubernetesacademy.online/wp-content/uploads/2021/06/checked-files-50px.png)
-
 ## Create a new AKS
 
 We'll use the azurerm_kubernetes_cluster resource from the Azure prodider. The documentation is available here:

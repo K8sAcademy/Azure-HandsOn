@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Worker
+build_property.ProjectDir = c:\Work\K8s Academy Online\Self-Paced Courses\GitHub Hands-On\Azure-HandsOn\L09-05 Docker Compose - Sample App\worker\dotnet\Worker\
