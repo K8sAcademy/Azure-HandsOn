@@ -12,7 +12,7 @@ Create a Container App revision using the CLI
 
 ## Create a Container App
 
-    az containerapp create -n lab7 -g ca-lab7 --environment managedEnvironment-lab7 --image k8sacademy/hello-app:1.0 --target-port 8080 --cpu 0.5 --memory 1.0Gi --ingress 'external' --revision-suffix 'v1'
+    az containerapp create -n lab7 -g ca-lab7 --environment managedEnvironment-lab7 --image guybarrette/hello-app:1.0 --target-port 8080 --cpu 0.5 --memory 1.0Gi --ingress 'external' --revision-suffix 'v1'
 
 In the output of the create, locate the **fqdn** field to get the link to test the app.
 
@@ -22,7 +22,7 @@ In the output of the create, locate the **fqdn** field to get the link to test t
 
 ## Deploy an update
 
-    az containerapp update -n lab7 -g ca-lab7 --image k8sacademy/hello-app:2.0 --revision-suffix 'v2'
+    az containerapp update -n lab7 -g ca-lab7 --image guybarrette/hello-app:2.0 --revision-suffix 'v2'
 
     az containerapp revision list -n lab7 -g ca-lab7 -o table
 

@@ -17,7 +17,7 @@ Next, create a Blob **Container** and a **File Share**.  Name them like this:
 
 In the Azure portal, create a new **Web App for Containers**.  See the previous labs for the complete steps.
 
-Use the **k8sacademy/kuard:latest** container.
+Use the **guybarrette/kuard:latest** container.
 
 ## Configure the Environment Variables
 

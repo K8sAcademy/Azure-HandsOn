@@ -13,7 +13,7 @@ services:
     restart: always
 
   reverseproxy: 
-    image: k8sacademy/reverseproxy
+    image: guybarrette/reverseproxy
     ports: 
       - "80:80"
     restart: always

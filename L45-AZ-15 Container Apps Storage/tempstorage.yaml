@@ -14,7 +14,7 @@ properties:
       transport: Auto
   template:
     containers:
-      - image: k8sacademy/kuard:latest
+      - image: guybarrette/kuard:latest
         name: kuard
         resources:
           cpu: 0.5

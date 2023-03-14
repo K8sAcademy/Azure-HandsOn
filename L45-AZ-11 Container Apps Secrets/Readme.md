@@ -12,7 +12,7 @@ Secrets
 
 ## Create a Container App
 
-    az containerapp create -n lab11 -g ca-lab11 --environment managedEnvironment-lab11 --image k8sacademy/kuard:latest --target-port 8080 --cpu 0.5 --memory 1.0Gi --ingress 'external' --secrets mysecret=MySecretValue --env-vars "thesecret=secretref:mysecret"
+    az containerapp create -n lab11 -g ca-lab11 --environment managedEnvironment-lab11 --image guybarrette/kuard:latest --target-port 8080 --cpu 0.5 --memory 1.0Gi --ingress 'external' --secrets mysecret=MySecretValue --env-vars "thesecret=secretref:mysecret"
 
 Locate the Container App URL, launch the app in a browser and try to locate the environment variable referecing the secret.
 

@@ -10,7 +10,7 @@ Type **Container Instances** to locate the service and select it.
 
 Type a container name (no need to be unique).
 
-Use this image: **k8sacademy/kuard:latest**
+Use this image: **guybarrette/kuard:latest**
 
 Select **Linux** as the OS type and leave the size as is.
 
